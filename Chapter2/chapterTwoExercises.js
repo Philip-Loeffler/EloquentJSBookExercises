@@ -1,13 +1,20 @@
 for (let hashTag = "#"; hashTag.length <= 8; hashTag += "#")
   console.log(hashTag);
 
-for (let i = 0; i < 100; i++) {
-  if (i % 3 == 0) {
-    console.log("fizz");
-  } else if (i % 5 == 0) {
-    console.log("buzz");
-  } else i % 3 == 0 && i % 5 == 0;
-  console.log("fizzbuzz");
+for (let p = 0; p <= 100; p++) {
+  console.log(p);
+}
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 5 === 0) {
+    console.log("Buzz");
+  } else if (i % 5 === 0 && i % 3 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else {
+    console.log(i);
+  }
 }
 
 let tag = "####";

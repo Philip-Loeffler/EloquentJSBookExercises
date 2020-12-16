@@ -26,7 +26,22 @@ console.log(findMinimum(10, 100));
 console.log(findNumberMinimum(10, 100));
 
 function countBs(countedString) {
+  let total = 0;
   for (let i = 0; i < countedString.length; i++) {
-    countedString[i];
+    if (countedString[i] == "B") {
+      total++;
+    }
   }
+  return total;
 }
+//check against letter you pass in
+function countBss(str, char) {
+  let total = 0;
+  for (let i = 0; str < countedString.length; i++) {
+    if (str[i] == char) {
+      total++;
+    }
+  }
+  return total;
+}
+console.log(countBs("BBC"));

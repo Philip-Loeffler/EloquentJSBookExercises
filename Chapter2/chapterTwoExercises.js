@@ -18,7 +18,7 @@ for (let i = 0; i <= 100; i++) {
 }
 
 let tag = "####";
-for (let i = 0; i <= 8; i++) {
+for (let i = 0; i < 8; i++) {
   if (i % 2 == 0) {
     console.log(" " + tag);
   } else console.log(tag);
